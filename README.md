@@ -33,6 +33,7 @@
 </project>
 ```
 Définition des balises utilisées dans le Project Object Model pom.xml :
+
 | Balise | Définition |
 |--------| :--------- |
 | project | Balise racine de tous les fichiers pom.xml |
@@ -51,14 +52,20 @@ Définition des balises utilisées dans le Project Object Model pom.xml :
     ```
     mvn compile
     ```
-Maven crée un répertoire `target`contenant les classes compilées
+    Maven crée un répertoire `target`contenant les classes compilées
 
 6. Création du fichier hello-1.jar avec Maven
-```
-mvn install
-```
-Installe les dépendances éventuelles et crée le fichier hello-1.jar
+    ```
+    mvn install
+    ```
+    Installe les dépendances éventuelles et crée le fichier hello-1.jar
+
 7. Exécute le projet
-```
-$ java -cp target/hello-1.jar hello.HelloAgain
-```
+    ```
+    $ java -cp target/hello-1.jar hello.HelloAgain
+    ```
+    Affiche le résultat du programme
+    ```
+    Hello again !
+    Warf warf warf !
+    ```
