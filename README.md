@@ -68,4 +68,5 @@ Définition des balises utilisées dans le Project Object Model pom.xml :
     ```
     Hello again !
     Warf warf warf !
+    Coin coin coin !
     ```
